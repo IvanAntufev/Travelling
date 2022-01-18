@@ -1,0 +1,24 @@
+:root{
+    --rectangel: #DFD7F9;
+}
+body {
+    font-family: 'Volkhov',"Poppins"
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header-img {
+    margin-left: 140px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav-item {
+    margin-right: 52px;
+}
+.nav-link {
+    color: var(--rectangel);
+    text-decoration: none;}
