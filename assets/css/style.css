@@ -1,5 +1,6 @@
 :root{
     --rectangel: #DFD7F9;
+    --black: #000
 }
 body {
     font-family: 'Volkhov',"Poppins"
@@ -14,11 +15,11 @@ body {
 .nav {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 10% ;
 }
 .nav-item {
     margin-right: 52px;
 }
 .nav-link {
-    color: var(--rectangel);
+    color: var(--black);
     text-decoration: none;}
