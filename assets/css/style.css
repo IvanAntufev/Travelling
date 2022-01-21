@@ -1,25 +1,32 @@
 :root{
     --rectangel: #DFD7F9;
-    --black: #000
+    --black: #000;
+
+}
+*,*:before,*:after{
+    box-sizing: border-box;
 }
 body {
     font-family: "Volkhov";
 
 }
+.wrapper{
+    margin: 0 auto;
+    max-width: 1160px;
+}
 .header {
     display: flex;
+    justify-content: space-between;
 
 }
 .header-img {
-    padding-right: 10%;
-    padding-left: 10%;
+
 
 
 }
 .nav {
     display: flex;
     list-style-type: none;
-    padding-right: 10% ;
 }
 .nav-item {
     margin-right: 7%;
