@@ -1,0 +1,54 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__item {
+    padding-right: 7%;
+
+}
+
+.nav__link {
+    color: var(--black);
+    text-decoration: none;
+
+    font-family: Google Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+.nav__link_frame {
+    border: 1px solid #211919;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 7px;
+}
+.nav__button-switcher{
+
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.nav__arrow{
+    padding-left:6px ;
+}
+.nav__button-switcher::after{
+
+    content: "";
+    background-image: url('/assets/img/arrow.svg')
+
+}

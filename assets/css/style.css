@@ -7,7 +7,9 @@
 
 
 }
-
+*{
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Volkhov", "poppins";
@@ -22,175 +24,16 @@ body {
 
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 7%;
-    padding-right: 12%;
-
-}
-
-
-
-.nav {
-    display: flex;
-    list-style-type: none;
-}
-
-.nav-item {
-    margin-right: 7%;
-
-}
-
-.nav-link {
-    color: var(--black);
-    text-decoration: none;
-
-    font-family: Google Sans;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    font-family: sans-serif;
-}
-
-
-.nav-frame {
-    border: 1px solid #211919;
-    padding-right: 21px;
-    padding-left: 21px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    border-radius: 7px;
-}
 
 
 
 
-.header,
-.page {
-    background-image: url('/assets/img/Decore.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: right;
-    background-attachment: fixed;
-}
-
-.main {
-    max-width: 1440px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.first-description {
-    position: absolute;
-    width: 410px;
-    height: 30px;
-    left: 150px;
-    top: 217px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-
-    text-transform: uppercase;
-
-    color: #DF6951;
-
-}
-
-.slogan {
-    position: absolute;
-    width: 545px;
-    height: 267px;
-    left: 150px;
-    top: 271px;
-
-    font-family: Volkhov;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 84px;
-    line-height: 89px;
-    /* or 106% */
-
-    letter-spacing: -0.04em;
-
-    /* 1st */
-
-    color: #181E4B;
-}
-
-.second-description {
-    position: absolute;
-    width: 477px;
-    height: 90px;
-    left: 148px;
-    top: 568px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    /* or 187% */
 
 
-    color: #5E6282;
-}
 
-.btn {
-    position: absolute;
-    width: 117px;
-    height: 23px;
-    left: 175px;
-    top: 711px;
 
-    font-family: Google Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
-    /* identical to box height */
 
-    text-align: center;
 
-    /* white */
-
-    color: #FFFFFF;
-    position: absolute;
-    width: 170px;
-    height: 60px;
-    left: 148px;
-    top: 692px;
-
-    /* yellow */
-
-    background: #F1A501;
-    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-    border-radius: 10px;
-}
-
-.btn-video {
-    position: absolute;
-    width: 92px;
-    height: 26px;
-    left: 435px;
-    top: 711px;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 25px;
-    color: #686D77;
-
-}
 
 
 
