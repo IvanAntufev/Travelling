@@ -12,18 +12,27 @@
     letter-spacing: 0em;
     text-align: center;
 
+
 }
 
 .category__title{
-
+    font-family: Volkhov;
+    text-align: center;
 }
 
 .category__item{
-
+    display: inline-block;
 
 
 }
 
 .category__link{
     font-family: 'Open Sans';
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding-inline: 50px;
 }

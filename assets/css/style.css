@@ -4,18 +4,18 @@
     --yellow: #F1A501;
     --l-red: #DF6951;
     --text: #181E4B;
-
+--dark-blue: #1E1D4C;
 
 }
 *{
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Volkhov", 'poppins', 'Open Sans';
+.body {
 
-    src:('poppins'),
-    url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap)
+
+
+
 }
 
 .wrapper {
