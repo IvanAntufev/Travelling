@@ -11,13 +11,14 @@
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
-
+    color: var(--dark-blue);
 
 }
 
 .category__title{
     font-family: Volkhov;
     text-align: center;
+    color: var(--dark-blue);
 }
 
 .category__item{
@@ -34,5 +35,5 @@
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    padding-inline: 50px;
+    padding-inline: 70px;
 }
