@@ -1,15 +1,16 @@
-.category__content{
+.direction__content{
     max-width: 1228px;
     padding-top: 222px;
 
 
+
 }
-.category{
+.direction__city{
     display: flex;
     list-style-type: none;
-    margin-bottom: 156px;
+
 }
-.category__description{
+.direction__description{
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -19,16 +20,23 @@
     text-align: center;
     color: var(--dark-blue);
 
+
 }
 
-.category__title{
+.direction__title{
     font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
     text-align: center;
+
     color: var(--dark-blue);
 
 }
 
-.category__item{
+.direction__item{
     display: inline-block;
     font-family: "Open Sans";
     font-size: 20px;
@@ -41,7 +49,7 @@
 
 }
 
-.category__link{
+.direction__link{
     font-family: 'Open Sans';
     color: var(--dark-blue);
     text-decoration: none;
@@ -52,51 +60,44 @@
     padding-inline: 70px;
     text-align: center;
 }
-.category__weather {
+.direction__rome {
     background: color var(--rectangel);
     box-shadow:  5px 4px 5px rgb(43, 6, 0);
-max-width: 267px;
-    height: 314px;
+    max-width: 314px;
+    height: 457px;
     margin: auto;
     padding-top: 30px;
     border-radius: 28px;}
 
-.category__flights {
+.direction__london {
     background: color var(--rectangel);
     box-shadow:  5px 4px 5px rgb(43, 6, 0);
-    max-width: 267px;
-    height: 314px;
+    max-width: 314px;
+    height: 457px;
     margin: auto;
     padding-top: 30px;
     border-radius: 28px;}
 
-.category__events {
+.direction__europe {
     background: color var(--rectangel);
     box-shadow:  5px 4px 5px rgb(43, 6, 0);
-    max-width: 267px;
-    height: 314px;
+    max-width: 314px;
+    height: 457px;
     margin: auto;
     padding-top: 30px;
     border-radius: 28px;}
 
-.category__customization {
-    background: color var(--rectangel);
-    box-shadow:  5px 4px 5px rgb(43, 6, 0);
-    max-width: 267px;
-    height: 314px;
-    margin: auto;
-    padding-top: 30px;
-    border-radius: 28px;}
-.category--paragraph{
+
+.direction--paragraph{
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 20px;
     letter-spacing: 0em;
-    text-align: center;
-    max-width: 181px;
-    height: 78px;
+    text-align: left;
 }
-
-
+.direction__img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;}
